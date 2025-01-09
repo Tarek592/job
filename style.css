@@ -279,3 +279,72 @@ main{
 
     padding: 15px 24px;
 }
+.banner-bg{
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    background-image:linear-gradient(rgb(36, 35, 35,0.5),rgba(36, 35, 35, 0.5)), url("assets/handshake.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 64px 48px;
+    margin-bottom: 80px;
+   
+
+  
+}
+.banar-text{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+.banner-sub-title{
+    color: #FEFEFE;
+    width: 606px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+#text-btn{
+    padding: 19px 20px ;
+    height: 57px;
+    width: 548px;
+    color: #565a64;
+    border-radius: 8px;
+    border: none;
+    margin-right: 16px;
+}
+.text-submit{
+    width: 120px;
+    height: 57px;
+    padding: 17px 20px ;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+
+}
+.sesbtn{
+display: flex;
+justify-content: center;
+height: 100;
+}
+.footer{
+    display: flex;
+    margin: 0 auto;
+    justify-content:space-around;
+    height: 100px;
+    width: 1440;
+    background-color: #F7F8F8;
+    padding-top: 40px;
+}
+.foot-icon img{
+    padding-right: 20px;
+}
+.ttt{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+}
