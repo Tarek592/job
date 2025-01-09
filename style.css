@@ -255,3 +255,27 @@ main{
     font-weight: bold;
     color: #0D1321;
 }
+.skill-last{
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+}
+.last-section{
+    width: 1140px;
+    height: 866px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.skill-last{
+    width: 1140px;
+    height: 219px;
+    border: 1px solid #dbdcde;
+    align-items: center;
+    margin-bottom: 24px;
+    border-radius: 16px;
+    padding: 40px;
+}
+.last4{
+
+    padding: 15px 24px;
+}
