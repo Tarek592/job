@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Azeret Mono;
+    
+}
+.navber{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    align-items: center;
+   
+}
+.title{
+    font-size: 28px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.btn{
+    padding: 17px 24px;
+    color: #0D1321;
+    border: 1px solid gray;
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+
+}
+.banner-container{
+    height: 70vh;
+    background-image: url("assets/Hero-bg.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  
+    
+    
+}
+.banner-container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 74px;
+}
+.banner{
+    width: 998px;
+    height: 581px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.banner-pic{
+    margin: 32px 0;
+}
+.banner-title{
+    font-size: 48px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+.subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    color: #565a64;
+    margin-bottom: 32px;
+}
+.banner-btn{
+    padding: 21px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #0D1321;
+    border: none;
+    color: white;
+
+}
+main{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+.details{
+    margin-top: 154px;
+    background-color: #fafafb;
+    padding: 80px 97px;
+    margin: 0 auto;
+    width: 1140px;
+    height: 1393px;
+    border-radius: 16px;
+    margin-bottom: 90px;
+}
+.web-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+.textdetails{
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+.web-subtitle{
+    font-size: 16px;
+    color: #565a64;
+}
+.box1{
+    display: flex;
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    padding: 48px;
+    background-color: white;
+    border-radius: 16px;
+    
+    text-align: left;
+    margin-bottom: 32px;
+}
+.titlebox{
+    width: 477px;
+    height: 219px;
+}
+.boxtitle{
+    font-size: 24px;
+    font-weight: bold;
+    color: #565a64;
+    margin-bottom: 16px;
+}
+.box-sub-title{
+    font-size: 16px;
+    color: #565a64;
+    margin-bottom: 32px;
+}
+.box-btn{
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FEFEFE;
+    color: #565a64;
+    border: 2px solid gray;
+}
+.image11{
+    margin-left: 93px;
+}
+.box2{
+    display: flex;
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    padding: 48px 0;
+    background-color: white;
+    border-radius: 16px;
+  
+    text-align: left;
+    margin-bottom: 32px;  
+}
+.imagebox{
+    margin-right: 32px;
+}
+.detail2{
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-bottom: 166px ;
+}
+.title3{
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+.sub-title-3{
+    font-size: 16px;
+    font-weight:400;
+    color: #565a64;
+    padding-bottom: 24px;
+}
+.ifame{
+    border-radius: 16px;
+    padding: 32px 32px ;
+    border: 1px solid gray;
+    margin: 0 auto;
+}
+.video{
+    border-radius: 16px;
+   
+}
+.skill-box{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+.skill-detail{
+    height: 460px;
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 111px;
+}
+.skill-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    padding-bottom: 24px;
+}
+.skill-sub-title{
+    color: #565a64;
+    width: 852px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+.skill-1{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    background-color: #fff6f3;
+    border-radius: 16px;
+    text-align: left;
+}
+.skill-2{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    background-color: #f2f6fe;
+    border-radius: 16px;
+    text-align: left;
+}
+.skill-3{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    background-color: #FFFDF2;
+    border-radius: 16px;
+    text-align: left;
+}
+.skill-icon{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+.skill-heading{
+    font-size: 24px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 8px;
+}
+.skill-paragraph{
+    color:#565a64;
+    margin-bottom: 24px;
+}
+.link1{
+    font-weight: bold;
+    color: #0D1321;
+}
